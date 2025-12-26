@@ -6,7 +6,7 @@ defmodule UuidBenchmark.BenchmarkEngine do
 
   @batch_size 5_000
   @total_count 100_000
-  @read_count 5_000 # How many selects to perform
+  @read_count 10_000 # How many selects to perform
 
   # --- INSERT BENCHMARK ---
   def run_comparison do
